@@ -111,8 +111,7 @@ export default function MoneySlide02Complex({ onNext }: SlideProps) {
                 <motion.div key="step3" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.3 }} className="text-center max-w-2xl">
                   <div className="bg-gradient-to-r from-red-500 to-orange-500 rounded-xl p-10">
                     <p className="text-2xl md:text-3xl font-black text-white mb-3">「むずっ！！」と思った瞬間、</p>
-                    <p className="text-3xl md:text-5xl font-black text-yellow-300 mb-3">あなたは</p>
-                    <p className="text-4xl md:text-6xl font-black text-white mb-3">"カモ"</p>
+                    <p className="text-4xl md:text-6xl font-black text-yellow-300 mb-3">"カモ"</p>
                     <p className="text-2xl md:text-3xl font-black text-white mb-6">になる</p>
                     <button onClick={() => setShowKamoModal(true)} className="text-sm text-white/70 hover:text-white underline flex items-center justify-center mx-auto">
                       <HelpCircle className="w-4 h-4 mr-1" />

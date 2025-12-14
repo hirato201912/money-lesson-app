@@ -9,6 +9,7 @@ import MoneySlide06Solution from '../../components/money-slides/MoneySlide06Solu
 import MoneySlide07HighSchool from '../../components/money-slides/MoneySlide07HighSchool'
 import MoneySlide08Reality from '../../components/money-slides/MoneySlide08Reality'
 import MoneySlide09Support from '../../components/money-slides/MoneySlide09Support'
+import MoneySlide09_5StartDash from '../../components/money-slides/MoneySlide09_5StartDash'
 import MoneySlide10Summary from '../../components/money-slides/MoneySlide10Summary'
 
 export default function MoneyLessonPage() {
@@ -30,8 +31,9 @@ export default function MoneyLessonPage() {
     <MoneySlide06Solution key="slide5" onNext={nextSlide} onPrev={prevSlide} />,
     <MoneySlide07HighSchool key="slide6" onNext={nextSlide} onPrev={prevSlide} />,
     <MoneySlide08Reality key="slide7" onNext={nextSlide} onPrev={prevSlide} />,
-    <MoneySlide09Support key="slide8" onNext={nextSlide} onPrev={prevSlide} />,
-    <MoneySlide10Summary key="slide9" onNext={nextSlide} onPrev={prevSlide} />,
+    <MoneySlide09_5StartDash key="slide8" onNext={nextSlide} onPrev={prevSlide} />,
+    <MoneySlide09Support key="slide9" onNext={nextSlide} onPrev={prevSlide} />,
+    <MoneySlide10Summary key="slide10" onNext={nextSlide} onPrev={prevSlide} />,
   ]
 
   return (

@@ -138,7 +138,7 @@ export default function MoneySlide03Complex({ onNext }: SlideProps) {
                     その瞬間、
                   </p>
                   <p className="text-6xl md:text-8xl font-black text-yellow-300">
-                    あなたは国の
+                    国の
                   </p>
                   <p className="text-7xl md:text-9xl font-black text-white mt-4">
                     "カモ"
